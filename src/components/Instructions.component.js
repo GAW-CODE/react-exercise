@@ -17,6 +17,17 @@ class Instructions extends Component {
             alt="Nadeshiko Kawaii"
           />
         )}
+        {this.props.items.map((item, index) => (
+          <ul key={index}>
+            {item.length >= 3 && (
+              <li>
+                {this.props.items.indexOf(item) % 2 === 1
+                  ? item.toUpperCase()
+                  : item}
+              </li>
+            )}
+          </ul>
+        ))}
       </div>
     )
   }
