@@ -8,8 +8,8 @@ class Instructions extends Component {
         Follow the instructions on the README to get started!
         <img
           className="instructions__logo"
-          src="https://uiuc.hack4impact.org/img/colored-logo.png"
-          alt="h4i logo"
+          src="https://i.imgur.com/0bXP0MU.png"
+          alt="Nadeshiko Kawaii"
         />
       </div>
     )
