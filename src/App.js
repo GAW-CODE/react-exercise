@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Instructions } from './components'
 import './styles/app.css'
+import Counter from './components/Counter.component'
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
           shouldDisplayImage={true}
           items={['instruction 1', 'instruction2', 'instruction3']}
         />
+        <Counter initialCount={1} />
       </div>
     )
   }
